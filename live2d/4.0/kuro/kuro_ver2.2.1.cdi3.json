@@ -1,0 +1,616 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup3",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup4",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup4",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　右"
+		},
+		{
+			"Id": "ParamHairFront7",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　左"
+		},
+		{
+			"Id": "ParamHairFront2",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　遊び　外　左"
+		},
+		{
+			"Id": "ParamHairFront9",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　外　左"
+		},
+		{
+			"Id": "ParamHairFront10",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　内　左"
+		},
+		{
+			"Id": "ParamHairFront11",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　遊び　内　左"
+		},
+		{
+			"Id": "ParamHairFront8",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　遊び　外　右"
+		},
+		{
+			"Id": "ParamHairFront12",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　束　右"
+		},
+		{
+			"Id": "ParamHairFront4",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　外　右"
+		},
+		{
+			"Id": "ParamHairFront5",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　内　右"
+		},
+		{
+			"Id": "ParamHairFront6",
+			"GroupId": "ParamGroup5",
+			"Name": "髪揺れ　前　横　遊び　内　右"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ　横　左"
+		},
+		{
+			"Id": "ParamHairSide3",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ　横　はね　左"
+		},
+		{
+			"Id": "ParamHairSide2",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ　横　右"
+		},
+		{
+			"Id": "ParamHairSide4",
+			"GroupId": "ParamGroup7",
+			"Name": "髪揺れ　横　はね　右"
+		},
+		{
+			"Id": "ParamHairBack2",
+			"GroupId": "ParamGroup8",
+			"Name": "髪揺れ　側　左"
+		},
+		{
+			"Id": "ParamHairBack3",
+			"GroupId": "ParamGroup8",
+			"Name": "髪揺れ　側　右"
+		},
+		{
+			"Id": "ParamHairBack8",
+			"GroupId": "ParamGroup10",
+			"Name": "耳　左"
+		},
+		{
+			"Id": "ParamHairBack9",
+			"GroupId": "ParamGroup10",
+			"Name": "耳　右"
+		},
+		{
+			"Id": "ParamHairBack10",
+			"GroupId": "ParamGroup11",
+			"Name": "チャック　揺れ"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup9",
+			"Name": "髪揺れ　後　外　左"
+		},
+		{
+			"Id": "ParamHairBack6",
+			"GroupId": "ParamGroup9",
+			"Name": "髪揺れ　後　内　左"
+		},
+		{
+			"Id": "ParamHairBack7",
+			"GroupId": "ParamGroup9",
+			"Name": "髪揺れ　後　中"
+		},
+		{
+			"Id": "ParamHairBack5",
+			"GroupId": "ParamGroup9",
+			"Name": "髪揺れ　後　内　右"
+		},
+		{
+			"Id": "ParamHairBack4",
+			"GroupId": "ParamGroup9",
+			"Name": "髪揺れ　後　外　右"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[0]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[1]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[2]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[3]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[4]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[5]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[6]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[7]尻尾"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh73",
+			"GroupId": "ParamGroup6",
+			"Name": "[8]尻尾"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "角度"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "目"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "眉"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "口"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "前髪　揺れ"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "横髪　揺れ"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "側髪　揺れ"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "耳　揺れ"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "チャック　揺れ"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "後ろ髪　揺れ"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "尻尾"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "本体"
+		},
+		{
+			"Id": "Part2",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part17",
+			"Name": "横髪"
+		},
+		{
+			"Id": "Part22",
+			"Name": "チャック"
+		},
+		{
+			"Id": "Part26",
+			"Name": "横髪_落ち影（パーカー_フードにクリッピング）"
+		},
+		{
+			"Id": "Part27",
+			"Name": "パーカー_フード"
+		},
+		{
+			"Id": "Part28",
+			"Name": "顔パーツ"
+		},
+		{
+			"Id": "Part44",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part45",
+			"Name": "首"
+		},
+		{
+			"Id": "Part46",
+			"Name": "パーカー_ポケット"
+		},
+		{
+			"Id": "Part47",
+			"Name": "パーカー"
+		},
+		{
+			"Id": "Part48",
+			"Name": "ズボン"
+		},
+		{
+			"Id": "Part49",
+			"Name": "脚"
+		},
+		{
+			"Id": "Part52",
+			"Name": "尻尾"
+		},
+		{
+			"Id": "Part53",
+			"Name": "袖"
+		},
+		{
+			"Id": "Part59",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part56",
+			"Name": "髪_側面"
+		},
+		{
+			"Id": "Part65",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part3",
+			"Name": "前髪_正面"
+		},
+		{
+			"Id": "Part6",
+			"Name": "前髪_横"
+		},
+		{
+			"Id": "Part18",
+			"Name": "横髪_左"
+		},
+		{
+			"Id": "Part19",
+			"Name": "横髪_はね毛_左"
+		},
+		{
+			"Id": "Part20",
+			"Name": "横髪_右"
+		},
+		{
+			"Id": "Part21",
+			"Name": "横髪_はね毛_右"
+		},
+		{
+			"Id": "Part23",
+			"Name": "チャック_1"
+		},
+		{
+			"Id": "Part24",
+			"Name": "チャック_2"
+		},
+		{
+			"Id": "Part25",
+			"Name": "チャック_3"
+		},
+		{
+			"Id": "Part29",
+			"Name": "頬_左"
+		},
+		{
+			"Id": "Part30",
+			"Name": "頬_右"
+		},
+		{
+			"Id": "Part31",
+			"Name": "眉毛_左"
+		},
+		{
+			"Id": "Part32",
+			"Name": "眉毛_右"
+		},
+		{
+			"Id": "Part33",
+			"Name": "目_左"
+		},
+		{
+			"Id": "Part71",
+			"Name": "目_右"
+		},
+		{
+			"Id": "Part41",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part42",
+			"Name": "口_閉じ"
+		},
+		{
+			"Id": "Part43",
+			"Name": "口_開き"
+		},
+		{
+			"Id": "Part50",
+			"Name": "脚_左"
+		},
+		{
+			"Id": "Part51",
+			"Name": "脚_右"
+		},
+		{
+			"Id": "ArtMesh73_Skinning",
+			"Name": "尻尾(スキニング)"
+		},
+		{
+			"Id": "Part37",
+			"Name": "尻尾(回転)"
+		},
+		{
+			"Id": "Part54",
+			"Name": "袖_左"
+		},
+		{
+			"Id": "Part55",
+			"Name": "袖_右"
+		},
+		{
+			"Id": "Part60",
+			"Name": "右耳"
+		},
+		{
+			"Id": "Part61",
+			"Name": "左耳"
+		},
+		{
+			"Id": "Part57",
+			"Name": "髪_側面_左"
+		},
+		{
+			"Id": "Part58",
+			"Name": "髪_側面_右"
+		},
+		{
+			"Id": "Part66",
+			"Name": "後ろ髪_左"
+		},
+		{
+			"Id": "Part67",
+			"Name": "後ろ髪_右"
+		},
+		{
+			"Id": "Part68",
+			"Name": "後ろ髪_左_内"
+		},
+		{
+			"Id": "Part69",
+			"Name": "後ろ髪_右_内"
+		},
+		{
+			"Id": "Part70",
+			"Name": "後ろ髪_真ん中"
+		},
+		{
+			"Id": "Part4",
+			"Name": "前髪_正面_右"
+		},
+		{
+			"Id": "Part5",
+			"Name": "前髪_正面_左"
+		},
+		{
+			"Id": "Part7",
+			"Name": "ヘアピン"
+		},
+		{
+			"Id": "Part8",
+			"Name": "前髪_横_遊び毛_外_左"
+		},
+		{
+			"Id": "Part9",
+			"Name": "前髪_横_遊び毛_外_右"
+		},
+		{
+			"Id": "Part10",
+			"Name": "前髪_横_左_外"
+		},
+		{
+			"Id": "Part11",
+			"Name": "前髪_横_左"
+		},
+		{
+			"Id": "Part12",
+			"Name": "前髪_横_遊び毛_内_左"
+		},
+		{
+			"Id": "Part13",
+			"Name": "前髪_横_右_束"
+		},
+		{
+			"Id": "Part14",
+			"Name": "前髪_横_右_外"
+		},
+		{
+			"Id": "Part15",
+			"Name": "前髪_横_右"
+		},
+		{
+			"Id": "Part16",
+			"Name": "前髪_横_遊び毛_内_右"
+		},
+		{
+			"Id": "Part34",
+			"Name": "まぶた"
+		},
+		{
+			"Id": "Part35",
+			"Name": "横まつ毛"
+		},
+		{
+			"Id": "Part36",
+			"Name": "瞳"
+		},
+		{
+			"Id": "Part72",
+			"Name": "まぶた"
+		},
+		{
+			"Id": "Part73",
+			"Name": "横まつ毛"
+		},
+		{
+			"Id": "Part74",
+			"Name": "瞳"
+		},
+		{
+			"Id": "Part62",
+			"Name": "左耳_1"
+		},
+		{
+			"Id": "Part63",
+			"Name": "左耳_2_白毛"
+		},
+		{
+			"Id": "Part64",
+			"Name": "左耳_3"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		]
+	]
+}
