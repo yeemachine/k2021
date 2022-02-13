@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ookami5.moc3",
+		"Textures": [
+			"textures/texture_00.png"
+		],
+		"Physics": "ookami5.physics3.json",
+		"DisplayInfo": "ookami5.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

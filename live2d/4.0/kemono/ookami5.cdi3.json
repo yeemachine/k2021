@@ -1,0 +1,280 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup2",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup2",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamMimi",
+			"GroupId": "",
+			"Name": "耳"
+		},
+		{
+			"Id": "ParamMayuikari",
+			"GroupId": "",
+			"Name": "眉いかり"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "右前ｘ"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "前中X"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "左白"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "左横"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "左横Y"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "右横X"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "右横Y"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "左前X"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "うで1"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "うで2"
+		},
+		{
+			"Id": "ParamAngleRotation1ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[0]しっぽ"
+		},
+		{
+			"Id": "ParamAngleRotation2ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[1]しっぽ"
+		},
+		{
+			"Id": "ParamAngleRotation3ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[2]しっぽ"
+		},
+		{
+			"Id": "ParamAngleRotation4ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[3]しっぽ"
+		},
+		{
+			"Id": "ParamAngleRotation5ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[4]しっぽ"
+		},
+		{
+			"Id": "ParamAngleRotation6ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[5]しっぽ"
+		},
+		{
+			"Id": "ParamAngleRotation7ArtMesh40",
+			"GroupId": "ParamGroup",
+			"Name": "[6]しっぽ"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "口"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "しっぽ"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part23",
+			"Name": "011953.psd（対応無し）"
+		},
+		{
+			"Id": "Part20",
+			"Name": "01195.psd（対応無し）"
+		},
+		{
+			"Id": "Part18",
+			"Name": "0119.psd（対応無し）"
+		},
+		{
+			"Id": "Part",
+			"Name": "髪"
+		},
+		{
+			"Id": "Part2",
+			"Name": "左目"
+		},
+		{
+			"Id": "Part3",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part4",
+			"Name": "口"
+		},
+		{
+			"Id": "Part5",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part6",
+			"Name": "腕"
+		},
+		{
+			"Id": "Part7",
+			"Name": "右腕"
+		},
+		{
+			"Id": "Part8",
+			"Name": "耳"
+		},
+		{
+			"Id": "ArtMesh40Skinning",
+			"Name": "しっぽ(スキニング)"
+		},
+		{
+			"Id": "Part9",
+			"Name": "しっぽ(回転)"
+		},
+		{
+			"Id": "Part22",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part11",
+			"Name": "左目"
+		},
+		{
+			"Id": "Part14",
+			"Name": "口"
+		},
+		{
+			"Id": "Part13",
+			"Name": "口"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"Param2",
+			"Param"
+		]
+	]
+}
